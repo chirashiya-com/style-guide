@@ -54,3 +54,22 @@ HTML/CSSのコーディングは自由度が高いため、コーダーが独自
     ※Visual Studio Codeなどのテキストエディタではネストの種類(スペースorタブ)や大きさ(何個分)か変更できる。
   </li>
 </ul>
+
+```
+<!--【OK】スペース2つでインデントがつけられている -->
+<dl class="form-item">
+  <dt class="form-item__title">名前</dt>
+  <dd class="form-item__desc">
+　  <input class="form-item__input text-field" type="text" name="name">
+  </dd>
+</dl>
+```
+
+```
+/* OK(スペース2つでインデントがつけられている) */
+@meida screen and (max-width: 900px) {
+  .logo {
+    font-size: 24px;
+  }
+}
+```
