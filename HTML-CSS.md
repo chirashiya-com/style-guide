@@ -390,8 +390,9 @@ ul {
 }
 ```
 
-<p>なお、以下のように「idセレクタ経由でスタイルを当てる」を非推奨としている会社もあるが、可とする。<br>
-「idセレクタ経由でスタイルを当てる」を目的でidを指定する際は、ハイフン「-」を指定することを推奨。<br>
+<h3>idセレクタ経由でスタイルを当てる場合</h3>
+<p>非推奨としている会社もあるが、可とする。<br>
+この場合にidを指定する際は、ハイフン「-」を指定することを推奨。<br>
 ハイフンを使用することで、Javascriptの動作対象から外れるため、意図しないJavascriptの動作に巻き込まれることが避けられる</p>
 <p><a href="https://google.github.io/styleguide/htmlcssguide.html#id_Attributes">Google HTML/CSS Style Guide（id Attributes）</a></p>
 
