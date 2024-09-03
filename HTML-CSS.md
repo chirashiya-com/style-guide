@@ -483,6 +483,8 @@ html {
 
 .text-test {
   font-size: 1.6rem; /* 16px */
+  font-size: 1.8rem; /* 18px */
+  font-size: 2rem; /* 20px */
 }
 
 ```
