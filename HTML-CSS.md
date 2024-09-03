@@ -440,3 +440,34 @@ Utilityクラスは部分的に使うと便利な時があるが、乱用する�
 .bold { font-weight: bold; }
 .bg-gray { background-color: #ddd; }
 ```
+
+<ul>
+  <li>▽OK モジュールごとにスタイリングしている</li>
+</ul>
+
+```
+<div class="message-box">
+　Hello, world!
+</div>
+```
+
+```
+.message-box {
+  padding: 10px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  background-color: #ddd;
+}
+```
+
+<h3>インラインスタイルは原則使用しない</h3>
+<p>スタイルの記述場所が分散するため、インラインスタイルは原則使用しない。<br>ただし、状況によってはbackground-imageなどはインラインスタイルで使用しても良い。</p>
+<ul>
+  <li>▽NG (インラインスタイルを使用している)</li>
+</ul>
+
+```
+<div class="message-box" style="color: red">
+　Hello, world!
+</div>
+```
