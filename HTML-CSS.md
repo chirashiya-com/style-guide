@@ -22,4 +22,4 @@ HTML/CSSのコーディングは自由度が高いため、コーダーが独自
 本ドキュメントでは、メンテナンス性が高いコードを書くために重要だと思われるポイントをスタイルガイドとしてまとめました。
 なお、本スタイルガイドは以下のドキュメントや記事を参考に作成しています。
 
-<a href="https://google.github.io/styleguide/htmlcssguide.html" target="_blank" rel="noopener noreferrer">
+<a href="https://google.github.io/styleguide/htmlcssguide.html" target="_blank" rel="noopener noreferrer">Google HTML/CSS Style Guide</a>
