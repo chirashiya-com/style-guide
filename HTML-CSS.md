@@ -240,3 +240,68 @@ HTMLを書き終わってからCSSを書くほうが、設計に一貫性をも�
   padding: 0;
 }
 ```
+
+<h3>適宜コメントを入れる</h3>
+<p>スタイルが何のためのものなのかわかるようにCSSファイルに適宜コメントを書くようにする。</p>
+<ul>
+  <li>コメントの例</li>
+</ul>
+
+```
+/* スタイルのリセット */
+img {
+  vertical-align: top;
+  max-width: 100%;
+}
+
+/* レイアウト用 */
+.inner {
+ width: 960px;
+ margin: 0 auto;
+}
+```
+
+<h3>不要なスタイルの重複記述を避ける</h3>
+<p>不要な重複記述は保守性を悪化させるため、不必要なスタイルの記述の重複がないようする。</p>
+
+```
+/*【NG】無駄な重複がある。 */
+.text {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+  line-height: 1.6;
+  letter-spacing: 0.01em;
+}
+
+@media screen and (max-width: 900px) {
+  .text {
+    margin-bottom: 14px; 
+    color: #333; /* ※重複 */
+    font-size: 20px; 
+    line-height: 1.6; /* ※重複 */
+    letter-spacing: 0.01em; /* ※重複 */
+  }
+}
+```
+
+```
+/* 【OK】不要な重複がない */ 
+.text {
+  color: #333;
+  font-size: 24px;
+  line-height: 1.6;
+  letter-spacing: 0.01em;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .text {
+    font-size: 20px;
+    margin-bottom: 14px; 
+  }
+}
+```
+
+
+
