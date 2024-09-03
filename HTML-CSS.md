@@ -389,3 +389,16 @@ ul {
   letter-spacing: 0.04em;
 }
 ```
+
+なお、以下のように「idセレクタ経由でスタイルを当てる」を非推奨としている会社もあるが、可とする。<br>
+「idセレクタ経由でスタイルを当てる」を目的でidを指定する際は、<a href="https://google.github.io/styleguide/htmlcssguide.html#id_Attributes">ハイフン「-」を指定することを推奨。</a>
+
+```
+/* 【可】idセレクタ経由でスタイルを当てている */
+#top-page h1 {
+  padding: 10px 0;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+}
+```
