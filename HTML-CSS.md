@@ -173,6 +173,7 @@ PHPやRubyの変数名などの命名にはよく使われる記法だが、HTML
 
 
 <h4>ブラウザに最初に表示される領域以外は、loading="lazy"を必ず記述する</h4>
+
 ```
 <!--【OK】loading="lazy" -->
 <img src="./images/sample.png" alt="サンプル画像" width="120" height="60" loading="lazy">
