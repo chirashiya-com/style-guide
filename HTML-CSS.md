@@ -95,3 +95,30 @@ HTMLで最も一般的な記法　-->
 PHPやRubyの変数名などの命名にはよく使われる記法だが、HTMLでこの記法を用いるのは推奨しない。 -->
 <h1 class="top_level_heading">ちらし屋ドットコム</h1>
 ```
+
+<h4>目的に応じたわかりやすい名前をつける</h4>
+<p>ハンバーガーボタンのクラス / IDのネーミング例</p>
+
+```
+<!-- 【OK】長くてもわかりやすさ優先 -->
+<button class="hamburger-button" id="hamburger-button"></button>
+```
+
+```
+<!-- 【OK】略語でもすぐに意味がわかるものはOK -->
+<button class="ham-button" id="ham-button"></button>
+```
+
+```
+<!-- 【NG】hbが何を意味するのかわかりづらい -->
+<button class="hb" id="hb"></button>
+```
+
+```
+<!-- 【NG】button1がハンバーガーボタンだとわからない -->
+<button class="button1" id="button1"></button>
+```
+
+<h4>ローマ字での命名はしない</h4>
+<p>heading image</p>
+<p>midashi gazou</p>
