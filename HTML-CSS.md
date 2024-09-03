@@ -192,8 +192,16 @@ PHPやRubyの変数名などの命名にはよく使われる記法だが、HTML
 </ul>
 
 
+<h3>a要素にtarget="_blank"属性を付ける場合は、rel="noopener noreferrer"属性もつける</h3>
+<p>XSS攻撃に対する脆弱性を防ぐため。</p>
 
+```
+<!--【OK】-->
+<a href="https://www.example.com/" target="_blank" rel="noopener noreferrer">新しいタブで開く</a>
+```
 
-
-
+```
+<!--【NG】-->
+<a href="https://www.example.com/" target="_blank">新しいタブで開く</a>
+```
 
