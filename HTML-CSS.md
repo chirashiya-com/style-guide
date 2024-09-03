@@ -2,9 +2,9 @@
 
 <ol>
   <li><a href="#start">はじめに</a></li>
-  <li>基本方針</li>
-  <li>HTML/CSS基本ルール</li>
-  <li>CSSのスタイルガイド</li>
+  <li><a href="#policy">基本方針</li>
+  <li><a href="#rule">HTML/CSS基本ルール</li>
+  <li><a href="#style">CSSのスタイルガイド</li>
 </ol>
 
 <h2 id="start">はじめに</h2>
