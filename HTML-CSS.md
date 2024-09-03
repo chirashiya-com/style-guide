@@ -184,7 +184,7 @@ PHPやRubyの変数名などの命名にはよく使われる記法だが、HTML
 <p>接頭辞の例</p>
 <ul>
   <li>ico- アイコン（例 ico-star.png）</li>
-  <li>pic- 写真</li>
+  <li>pic- 写真 or img- 写真</li>
   <li>txt- テキスト</li>
   <li>bg- 　背景</li>
   <li>arw- 矢印<br>など</li>
