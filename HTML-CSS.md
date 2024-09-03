@@ -142,3 +142,15 @@ PHPやRubyの変数名などの命名にはよく使われる記法だが、HTML
     </ul>
   </li>
 </ul>
+
+<h4>img要素にはalt属性を必ずつける</h4>
+
+```
+<!--【OK】-->
+<img src="./images/sample.png" alt="サンプル画像">
+```
+
+```
+<!--【OK】画像に関する説明が不要であれば、alt属性の値は空でもOK(※alt属性自体の省略はNG) -->
+<img src="./images/foo.png" alt="">
+```
