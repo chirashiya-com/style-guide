@@ -146,6 +146,7 @@ PHPやRubyの変数名などの命名にはよく使われる記法だが、HTML
 <a href="https://github.com/chirashiya-com/style-guide/blob/main/IMAGE.md">jpg、pngの使い分けについて</a>
 
 <h4>img要素にはalt属性を必ずつける</h4>
+<p>※altに入れるテキストが不明な場合は、納品までに必ず確認して入れること。altが空のまま納品しない。</p>
 
 ```
 <!--【OK】-->
