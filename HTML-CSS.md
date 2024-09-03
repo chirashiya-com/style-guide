@@ -143,7 +143,7 @@ PHPやRubyの変数名などの命名にはよく使われる記法だが、HTML
   </li>
 </ul>
 
-<a href="https://github.com/chirashiya-com/style-guide/blob/main/IMAGE.md">jpg画像、png画像の使い分けについて</a>
+<a href="https://github.com/chirashiya-com/style-guide/blob/main/IMAGE.md">jpg、pngの使い分けについて</a>
 
 <h4>img要素にはalt属性を必ずつける</h4>
 
