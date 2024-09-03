@@ -25,7 +25,7 @@ HTML/CSSのコーディングは自由度が高いため、コーダーが独自
 <a href="https://google.github.io/styleguide/htmlcssguide.html" target="_blank" rel="noopener noreferrer">Google HTML/CSS Style Guide</a>
 
 
-<h2>2.基本方針</h2>
+<h2 id="policy">2.基本方針</h2>
 <h3>メンテナンス性の高いコードを書く</h3>
 <ul>
   <li>一度書いたら終わりではなく、継続的に保守されることを前提にコードを書く</li>
@@ -38,5 +38,13 @@ HTML/CSSのコーディングは自由度が高いため、コーダーが独自
   </li>
 </ul>
 
+
+<h2 id="rule">HMTL/CSS基本ルール</h2>
+<h3>目的に応じたマークアップ(セマンティックなマークアップ)をする</h3>
+<ul>
+  <li>HTML要素は目的に応じたものを選んで使う。例えば見出しはh1～h6要素、段落にはp要素を使う、など。</li>
+  <li>h1タグは重複しないようにする。</li>
+  <li>よくあるケースがWordPressで、ロゴのh1タグとサブページ見出しのh1が被っていることがあるので注意</li>
+</ul>
 
 
