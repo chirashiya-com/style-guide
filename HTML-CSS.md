@@ -162,7 +162,7 @@ PHPやRubyの変数名などの命名にはよく使われる記法だが、HTML
   <li>ページの読み込み速度に有利と言われている。<br>また、SVG形式の画像や、2xの解像度で書き出した画像のデフォルトの大きさを設定するのに使うと便利。</li>
   <li>width、height属性の記述がない場合、ブラウザが画像サイズを再計算する動作が生じるため、読み込み速度に影響が出ると言われている。</li>
   <li>
-    <a href="https://coliss.com/articles/build-websites/operation/work/avoiding-img-layout-shifts.html"レイアウトシフトの防止になる</a>
+    <a href="https://coliss.com/articles/build-websites/operation/work/avoiding-img-layout-shifts.html">レイアウトシフトの防止になる</a>
   </li>
 </ul>
 
