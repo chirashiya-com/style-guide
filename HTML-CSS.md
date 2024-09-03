@@ -4,5 +4,4 @@
   <li>基本方針</li>
   <li>HTML/CSS基本ルール</li>
   <li>CSSのスタイルガイド</li>
-  <li>BEM（CSS設計手法）を導入する</li>
 </ol>
