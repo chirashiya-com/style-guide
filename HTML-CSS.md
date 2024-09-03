@@ -343,3 +343,30 @@ h1.top-level-heading {
   text-align: center;
 }
 ```
+
+<h3>要素セレクタ単体にスタイルを当てない</h3>
+<p>要素セレクタ単体にスタイルを当てると、影響範囲が広すぎるため意図しないところでのスタイルが崩れる可能性がある。<br>
+要素セレクタ単体にスタイルを当てるのは、スタイルをリセットするときのみにする。</p>
+
+```
+/* 【NG】スタイルを要素セレクタに直接設定している */
+h1 {
+  padding: 10px 0;
+  font-size: 20px;
+  color: #333;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+```
+<p>▽要素セレクタにリセット用のスタイルを設定するのはOK</p>
+```
+/* 【OK】スタイルのリセット */
+img {
+  vertical-align: top;
+  max-width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+```
