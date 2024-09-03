@@ -311,3 +311,13 @@ img {
   <li>スタイルの詳細度をある程度一定に保つことができるので、上書きや変更がしやすい。</li>
 </ul>
 <p>idセレクタや要素セレクタにスタイルを当てることのデメリットについては後述する。</p>
+
+```
+/* 【OK】クラスセレクタにスタイルを当てている */
+.top-level-heading {
+  padding: 10px 0;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+}
+```
