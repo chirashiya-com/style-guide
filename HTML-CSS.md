@@ -371,3 +371,21 @@ ul {
   list-style-type: none;
 }
 ```
+
+<h3>dセレクタに直接スタイルを当てない</h3>
+<p>スタイル設定にidセレクタは使用すると以下のようなデメリットがあるので避ける。</p>
+<ul>
+  <li>idセレクタはスタイルの詳細度を不必要に高めてしまうのであとから調整がききにくくなる。</li>
+  <li>同じidは1ページにつき１つという決まりがあるためスタイルの再利用がしにくくなる。</li>
+</ul>
+<p>idはページ内リンクやJavaScriptでのDOM操作のみに使用する。</p>
+
+```
+/* 【NG】idにスタイルを当てている */
+#top-level-heading {
+  padding: 10px 0;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+}
+```
