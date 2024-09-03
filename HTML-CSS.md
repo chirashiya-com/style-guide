@@ -122,6 +122,6 @@ PHPやRubyの変数名などの命名にはよく使われる記法だが、HTML
 <h4>ローマ字での命名はしない</h4>
 <ul>
   <li><b>OK</b> heading image</li>
-  <li><b>OK</b>midashi gazou</li>
+  <li><b>NG</b> midashi gazou</li>
 </ul>
 
