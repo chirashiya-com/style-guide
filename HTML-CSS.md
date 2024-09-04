@@ -514,3 +514,17 @@ font-size: min(20 / 384* 100vw, 20px); /* ブラウザ幅が384px以下になっ
 
 
 <h4>line-height</h4>
+単位なしの相対値で設定する。pxなどの固定値で設定しない。
+<b>OK</b>　line-height: 1.6;
+<b>NG</b>　line-height: 20px;
+
+<h4>letter-spacing</h4>
+OK letter-spacing: 0.04em
+NG letter-spacing: 1px
+
+
+<h3>リセットCSSを使用する</h3>
+<p>新規のコーディングプロジェクトにはリセットCSSを使用する。</p>
+<p>おすすめのリセットCSS</p>
+*<a href="https://github.com/nicolas-cusan/destyle.css/blob/master/destyle.css">destyle.css</a>
+*<a href="https://coliss.com/articles/build-websites/operation/css/css-reset-for-modern-browser.html">coliss</a>
