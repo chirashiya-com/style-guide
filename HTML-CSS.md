@@ -4,7 +4,7 @@
   <li><a href="#start">はじめに</a></li>
   <li><a href="#policy">基本方針</li>
   <li><a href="#rule">HTML/CSS基本ルール</li>
-  <li><a href="#style">CSSのスタイルガイド</li>
+  <li><a href="#style-guide">CSSのスタイルガイド</li>
 </ol>
 
 <h2 id="start">1.はじめに</h2>
@@ -210,7 +210,7 @@ PHPやRubyの変数名などの命名にはよく使われる記法だが、HTML
 HTMLを書き終わってからCSSを書くほうが、設計に一貫性をもたせやすく、コーディング完了までのスピードも速くなる。</p>
 
 
-<h2>4. CSSのスタイルガイド</h2>
+<h2 id="style-guide">4. CSSのスタイルガイド</h2>
 <p>GoogleのエンジニアPhilip Waltonによる記事「<a href="https://philipwalton.com/articles/css-architecture/">CSS Architecture</a>」では、CSSを設計する時に目指すべき４つのゴールが紹介されている。</p>
 <ul>
   <li>予測しやすい - クラス名や構造などからふるまいを容易に想像できる。</li>
