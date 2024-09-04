@@ -630,3 +630,42 @@ Sassを使用している場合は要素ごとにミックスインをインク�
   margin-left: 30%;
 }
 ```
+
+### 余白の方向について
+
+下方向に統一すること。
+マージンの相殺が起こるため、上と下方向の指定が混ざることは非推奨。
+[MMD margin](https://developer.mozilla.org/ja/docs/Web/CSS/margin#%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%B3%E3%81%AE%E7%9B%B8%E6%AE%BA)
+
+```
+/* OK例 */
+.test {
+  margin-bottom: 50px;
+}
+
+.test2 {
+  margin-bottom: 30px;
+}
+```
+
+```
+/* NG例 */
+.test {
+  margin-bottom: 50px;
+}
+
+.test2 {
+  margin-top: 30px;
+}
+```
+
+### width、heightの固定値について
+
+
+### OGP画像、ファビコン、ウェブクリップ画像について
+
+- OGP画像：1200×630px
+- ファビコン：32x32
+- ウェブクリップ：180x180px（可能であれば）
+
+[Faviconジェネレーター](https://favicon-generator.mintsu-dev.com/)
