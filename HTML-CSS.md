@@ -540,3 +540,74 @@ Visual Studio Codeを使用している場合、Live Sass Compilerという拡�
 
 - 参考記事：[Visual Studio CodeでSassを自動でコンパイルする](https://blanche-toile.com/web/vscode-live-sass-compiler)
 
+### レスポンシブ対応について
+####ブレイクポイント
+PC用、タブレット用、スマホ用の３種類のデバイスに対応できるようにスタイルを組む。  
+ブレイクポイントはデザイン応じて適したものを選ぶ。
+
+```
+@media screen and (max-width:767px){}
+```
+
+#### メディアクエリはモジュール単位で記述する。
+メディアクエリをブレイクポイントごとにすべてまとめて記述する方法は表示速度の点ではやや有利だが、 メンテナンス性が良くないのでモジュールごとに記述すること推奨する。  
+Sassを使用している場合は要素ごとにミックスインをインクルードしてメディアクエリ用のスタイルを書く。
+
+```
+/* CSSの場合 モジュールごとにメディアクエリを指定　*/
+.top-level-heading {
+  padding: 10px 0;
+  text-align: center;
+  font-size: 38px;
+  letter-spacing: 0.04em;
+}
+
+@media screen and (max-width: 940px){
+  .top-level-heading {
+    padding: 5px 0;
+    font-size: 27px
+  }
+}
+
+@media screen and (max-width: 600px){
+  .top-level-heading {
+    font-size: 22px
+  }
+}
+
+.data-list {
+  margin-bottom: 50px;
+  padding: 10px;
+  background-color: #ddd;
+}
+
+.data-list__title {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 940px){
+  .data-list {
+    padding: 5px;
+  }
+
+  .data-list__title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .data-list__title {
+    font-size: 16px;
+  }
+}
+```
+
+#### ブラウザサイズについて
+- 基本的に1920px〜350pxのブラウザに対応する。
+- 2560pxのブラウザサイズに広げても、表示に崩れがないこと。  
+[statcounter](https://gs.statcounter.com/screen-resolution-stats)  
+[トレンド1](https://design-baum.jp/design/4144/)  
+[トレンド2](https://support.neoworks.jp/website/website-website/website-prepare/tends/2024-2-display-trend/)
+
+
