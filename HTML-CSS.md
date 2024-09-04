@@ -620,3 +620,12 @@ Sassを使用している場合は要素ごとにミックスインをインク�
   margin-inline: auto;
 }
 ```
+なお、インナー幅を力技で中央寄せに見せることはNGとする。
+```
+/* NG例 */
+.inner {
+  max-width: 1200px;
+  width: 100%;
+  margin-left: 30%;
+}
+```
