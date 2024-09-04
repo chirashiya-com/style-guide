@@ -523,7 +523,7 @@ OK letter-spacing: 0.04em
 NG letter-spacing: 1px
 
 
-###リセットCSSを使用する
+### リセットCSSを使用する
 <p>新規のコーディングプロジェクトにはリセットCSSを使用する。</p>
 <p>おすすめのリセットCSS</p>
 *<a href="https://github.com/nicolas-cusan/destyle.css/blob/master/destyle.css">destyle.css</a>
