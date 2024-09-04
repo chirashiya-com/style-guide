@@ -532,5 +532,5 @@ NG letter-spacing: 1px
 </ul>
 
 ### Sassについて
-[GitHub](https://github.com)
+[Visual Studio CodeでSassを自動でコンパイルする](https://blanche-toile.com/web/vscode-live-sass-compiler)
 
