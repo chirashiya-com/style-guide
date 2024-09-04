@@ -607,7 +607,16 @@ Sassを使用している場合は要素ごとにミックスインをインク�
 - 基本的に1920px〜350pxのブラウザに対応する。
 - 2560pxのブラウザサイズに広げても、表示に崩れがないこと。  
 [statcounter](https://gs.statcounter.com/screen-resolution-stats)  
-[トレンド1](https://design-baum.jp/design/4144/)  
-[トレンド2](https://support.neoworks.jp/website/website-website/website-prepare/tends/2024-2-display-trend/)
+[最新のディスプレイサイズシェア動向](https://support.neoworks.jp/website/website-website/website-prepare/tends/)
 
 
+#### インナー幅について
+基本的に1200px 〜 1024pxの間で対応する。
+```
+/* 例 */
+.inner {
+  max-width: 1200px;
+  width: 100%;
+  margin-inline: auto;
+}
+```
