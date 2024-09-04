@@ -498,6 +498,9 @@ html {
 
 ```
 font-size: clamp(16px, 5vw, 20px); /* 16px以下にはならず、20pxを超えない */
+```
+
+```
 font-size: clamp(16px, calc(18 / 384* 100vw), 18px); /* ブラウザが384px以下になると18pxが縮小するが、16px以下にはならず、18pxを超えない。 */
 ```
 
