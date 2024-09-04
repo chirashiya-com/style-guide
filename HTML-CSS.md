@@ -532,5 +532,7 @@ NG letter-spacing: 1px
 </ul>
 
 ### Sassについて
+Sassで書かれたサイトを編集する際は、Sassファイルを修正すること。
+
 - 参考記事：[Visual Studio CodeでSassを自動でコンパイルする](https://blanche-toile.com/web/vscode-live-sass-compiler)
 
