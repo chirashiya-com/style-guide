@@ -524,10 +524,9 @@ NG letter-spacing: 1px
 
 
 ### リセットCSSを使用する
-<p>新規のコーディングプロジェクトにはリセットCSSを使用する。</p>
+<p>新規のコーディングプロジェクトにはリセットCSSを使用する。（時代によって変化するため、最新の情報を確認すること）</p>
 <p>おすすめのリセットCSS</p>
-- <a href="https://github.com/nicolas-cusan/destyle.css/blob/master/destyle.css">destyle.css</a>
-- <a href="https://coliss.com/articles/build-websites/operation/css/css-reset-for-modern-browser.html">coliss</a>
-
-- あ
-- あ
+<ul>
+  <li><a href="https://github.com/nicolas-cusan/destyle.css/blob/master/destyle.css">destyle.css</a></li>
+  <li><a href="https://coliss.com/articles/build-websites/operation/css/css-reset-for-modern-browser.html">coliss</a></li>
+</ul>
