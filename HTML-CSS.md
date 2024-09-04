@@ -497,10 +497,11 @@ html {
 <p><a href="https://developer.mozilla.org/ja/docs/Web/CSS/clamp">MMD clamp()</a></p>
 
 ```
-font-size: clamp(1.5rem, 5vw, 2rem); /* 15px以下にはならず、20pxを超えない */
+font-size: clamp(16px, 5vw, 20px); /* 16px以下にはならず、20pxを超えない */
+font-size: clamp(16px, calc(18 / 384* 100vw), 18px); /* ブラウザが384px以下になると18pxが縮小するが、16px以下にはならず、18pxを超えない。 */
 ```
 
-▽例2：ブラウザ幅によって、可変にする。
+▽例2：ブラウザ幅以下になった時の指定。
 ```
 font-size: min(40 / 1920* 100vw, 40px); /* ブラウザ幅が1920px以下になった際、40pxが縮小する */
 font-size: min(30 / 1440* 100vw, 30px); /* ブラウザ幅が1440px以下になった際、30pxが縮小する */
