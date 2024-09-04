@@ -606,8 +606,8 @@ Sassを使用している場合は要素ごとにミックスインをインク�
 #### ブラウザサイズについて
 - 基本的に1920px〜350pxのブラウザに対応する。
 - 2560pxのブラウザサイズに広げても、表示に崩れがないこと。  
+[最新のディスプレイサイズシェア動向](https://support.neoworks.jp/website/website-website/website-prepare/tends/)  
 [statcounter](https://gs.statcounter.com/screen-resolution-stats)  
-[最新のディスプレイサイズシェア動向](https://support.neoworks.jp/website/website-website/website-prepare/tends/)
 
 
 #### インナー幅について
