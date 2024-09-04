@@ -506,9 +506,9 @@ font-size: clamp(16px, calc(18 / 384* 100vw), 18px); /* ブラウザが384px以�
 
 ▽例2：ブラウザ幅以下になった時の指定。
 ```
-font-size: min(40 / 1920* 100vw, 40px); /* ブラウザ幅が1920px以下になった際、40pxが縮小する */
-font-size: min(30 / 1440* 100vw, 30px); /* ブラウザ幅が1440px以下になった際、30pxが縮小する */
-font-size: min(20 / 384* 100vw, 20px); /* ブラウザ幅が384px以下になった際、20pxが縮小する */
+font-size: min(40 / 1920* 100vw, 40px); /* ブラウザ幅が1920px以下になった際、40pxがブラウザ幅に応じて縮小する */
+font-size: min(30 / 1440* 100vw, 30px); /* ブラウザ幅が1440px以下になった際、30pxがブラウザ幅に応じて縮小する */
+font-size: min(20 / 384* 100vw, 20px); /* ブラウザ幅が384px以下になった際、20pxがブラウザ幅に応じて縮小する */
 ```
 <p><a href="https://developer.mozilla.org/ja/docs/Web/CSS/min">MMD min()</a></p>
 
