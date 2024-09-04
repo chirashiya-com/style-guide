@@ -530,3 +530,7 @@ NG letter-spacing: 1px
   <li><a href="https://github.com/nicolas-cusan/destyle.css/blob/master/destyle.css">destyle.css</a></li>
   <li><a href="https://coliss.com/articles/build-websites/operation/css/css-reset-for-modern-browser.html">coliss</a></li>
 </ul>
+
+### Sassについて
+<p></p>
+- 参考記事： [Visual Studio CodeでSassを自動でコンパイルする]([https://github.com](https://blanche-toile.com/web/vscode-live-sass-compiler))
