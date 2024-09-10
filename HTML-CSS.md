@@ -191,6 +191,9 @@ PHPやRubyの変数名などの命名にはよく使われる記法だが、HTML
   <li>arw- 矢印<br>など</li>
 </ul>
 
+<h3>mp4動画について</h3>
+
+20MB以下に抑えるように圧縮する。
 
 <h3>a要素にtarget="_blank"属性を付ける場合は、rel="noopener noreferrer"属性もつける</h3>
 <p>XSS攻撃に対する脆弱性を防ぐため。</p>
