@@ -152,7 +152,7 @@ Advanced Cumtom FieldsプラグインまたはSmart Custom Fieldsプラグイン
 WordPressのローカル環境構築には[Local by Flywheel](https://localwp.com/)を使うのが最も簡単でおすすめ。  
 インストール方法や使い方は[こちら](https://lucy.ne.jp/bazubu/local-by-flywheel-33920.html)の記事が参考になる。  
 既存のワードプレスサイトのローカルへのコピーにはAll-in-One WP Migrationプラグインを使うと良い。  
-使い方はこちらの記事を参照。--
+使い方は[こちら](https://www.webdesignleaves.com/pr/wp/wp_all_in_one_wp_migration.html)の記事を参照。  
 
 Prefferredの選択で上手くいかない場合は、Apache にすると上手くいくケースがある。
 <img width="800" alt="スクリーンショット 2024-09-10 14 30 57" src="https://github.com/user-attachments/assets/c4fd0dcb-a29e-4ae4-b6f6-e84ebeb0d9e5">
