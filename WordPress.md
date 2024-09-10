@@ -233,7 +233,7 @@ add_filter('wp_sitemaps_add_provider', 'sitemap_hide_user', 10, 2);
 
 ## OGP画像について
 [SEO SIMPLE PACK](https://ja.wordpress.org/plugins/seo-simple-pack/) の設定から入れることができるので、そちらから入れることを推奨。  
-title、meta属性を反映するのに、このプラグインを使用するため、一緒にOGPも設定しておく。
+title、メタディスクリプションを反映するのに、このプラグインを使用するため、一緒にOGPも設定しておく。
 
 
 ## ローカル環境での開発について
