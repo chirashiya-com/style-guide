@@ -60,7 +60,7 @@ add_action('wp_enqueue_scripts', 'add_stylesheet');
 functions.phpに記述すること。
 
 ```
-【OK】
+//【OK】
 // Google Fonts
 function google_font_scripts() {
   wp_enqueue_style( 'google-web-style', '//fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap',array(), null );
