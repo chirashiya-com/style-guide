@@ -189,10 +189,10 @@ Prefferredの選択で上手くいかない場合は、Apache にすると上手
 
 ちらし屋式（仕事のルール）という名称のガイドラインがあるため、そちらの内容を確認すること。
 
-### Edit Author Slug（著者の記事一覧ページのスラッグを変更）について
+#### Edit Author Slug（著者の記事一覧ページのスラッグを変更）について
 [Edit Author Slug](https://wordpress.org/plugins/edit-author-slug/)
 
-### functions.phpへの記述方法
+#### functions.phpへの記述方法
 https://www.doe.co.jp/hp-tips/wordpress-login-id-guard/
 
 ```
