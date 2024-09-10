@@ -562,14 +562,14 @@ Sassを使用している場合は要素ごとにミックスインをインク�
   letter-spacing: 0.04em;
 }
 
-@media screen and (max-width: 940px){
+@media screen and (max-width: 1199px){
   .top-level-heading {
     padding: 5px 0;
     font-size: 27px
   }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 767px){
   .top-level-heading {
     font-size: 22px
   }
@@ -586,7 +586,7 @@ Sassを使用している場合は要素ごとにミックスインをインク�
   font-size: 24px;
 }
 
-@media screen and (max-width: 940px){
+@media screen and (max-width: 1199px){
   .data-list {
     padding: 5px;
   }
@@ -596,7 +596,7 @@ Sassを使用している場合は要素ごとにミックスインをインク�
   }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 767px){
   .data-list__title {
     font-size: 16px;
   }
