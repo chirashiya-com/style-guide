@@ -67,7 +67,7 @@
 
 ```
 /* OK(スペース2つでインデントがつけられている) */
-@meida screen and (max-width: 900px) {
+@meida screen and (max-width: 767px) {
   .logo {
     font-size: 24px;
   }
@@ -278,7 +278,7 @@ img {
   letter-spacing: 0.01em;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 767px) {
   .text {
     margin-bottom: 14px; 
     color: #333; /* ※重複 */
@@ -299,7 +299,7 @@ img {
   margin-bottom: 20px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 767px) {
   .text {
     font-size: 20px;
     margin-bottom: 14px; 
