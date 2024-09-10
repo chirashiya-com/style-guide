@@ -137,7 +137,10 @@ Advanced Cumtom FieldsプラグインまたはSmart Custom Fieldsプラグイン
 それ以外の場合は、functions.php経由で挿入する。
 
 ```
-//Google Tag Manager
+//【OK】functions.php
+
+// Google Tag Manager
+
 function add_gtm_head() {
   echo "<!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
