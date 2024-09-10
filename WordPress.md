@@ -193,7 +193,7 @@ Prefferredの選択で上手くいかない場合は、Apache にすると上手
 - [Edit Author Slug](https://wordpress.org/plugins/edit-author-slug/)
 
 #### functions.phpへの記述方法
-- https://www.doe.co.jp/hp-tips/wordpress-login-id-guard/
+- https://www.doe.co.jp/hp-tips/wordpress-login-id-guard/  
 
 ```
 //【OK】functions.php
