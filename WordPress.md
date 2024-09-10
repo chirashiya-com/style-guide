@@ -35,12 +35,23 @@
 
 ```
 <!-- 【OK】functions.phpにフックを書いてスタイルシートやスクリプトを読み込んでいる -->
-add_action('wp_enqueue_scripts', 'my_wp_enqueue_scripts');
-function my_wp_enqueue_scripts() {
-  wp_enqueue_style( 'common-style', get_template_directory_uri() . '/style.css' );
-  wp_enqueue_script( 'jquery' ); #WP内蔵のjQueryを使用
-  wp_enqueue_script('common-script', get_stylesheet_directory_uri(). '/js/script.js', array('jquery'));
+// CSS ファイルを読み込み
+function add_stylesheet() {
+  wp_enqueue_style('reset-handle', get_template_directory_uri() . '/common/css/reset.css', '1.0', false);
+  wp_enqueue_style('slick-handle', get_template_directory_uri() . '/slick/slick.css', '1.0', false);
+  wp_enqueue_style('slick-theme-handle', get_template_directory_uri() . '/slick/slick-theme.css', '1.0', false);
+  wp_enqueue_style('common-handle', get_template_directory_uri() . '/common/css/common.css', '1.0', false);
+  wp_enqueue_style('parts-handle', get_template_directory_uri() . '/common/css/parts.css', '1.0', false);
+  wp_enqueue_style('top-handle', get_template_directory_uri() . '/common/css/top.css', '1.0', false);
+  wp_enqueue_style('page-handle', get_template_directory_uri() . '/common/css/page.css', '1.0', false);
+
+// JSの読み込み
+  wp_enqueue_script('jquery-handle', get_template_directory_uri().'/common/js/jquery-3.7.1.min.js');
+  wp_enqueue_script('slick-js-handle', get_template_directory_uri().'/common/js/slick.js');
+  wp_enqueue_script('slick-min-handle', get_template_directory_uri().'/slick/slick.min.js');
+  wp_enqueue_script('config-js-handle', get_template_directory_uri().'/common/js/config.js');
 }
+add_action('wp_enqueue_scripts', 'add_stylesheet');
 ```
 
 ## テンプレートファイルの構成について
@@ -174,10 +185,10 @@ add_action('wp_body_open', 'add_gtm_body', 0);
 - 稼働中のサイトに未知のプラグインを導入する場合は、本番環境でいきなり導入する前にローカル環境などで動作確認をすることを強く勧める。
 
 
-### プラグインについて
+### 必須プラグイン
 
 ちらし屋式（仕事のルール）という名称のガイドラインがあるため、そちらの必須プラグインを確認すること。  
-また、不要なプラグインは
+また、不要なプラグインは削除
 
 #### Edit Author Slug（著者の記事一覧ページのスラッグを変更）について
 - [Edit Author Slug](https://wordpress.org/plugins/edit-author-slug/)
