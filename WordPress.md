@@ -238,6 +238,10 @@ add_filter('wp_sitemaps_add_provider', 'sitemap_hide_user', 10, 2);
 [SEO SIMPLE PACK](https://ja.wordpress.org/plugins/seo-simple-pack/) の設定から入れることができるので、そちらから入れることを推奨。  
 title、メタディスクリプションを反映するのに、このプラグインを使用するため、一緒にOGPも設定しておく。
 
+## パーマリンク構造について
+
+設定 → パーマリンク → カスタム構造 にて、`/%category%/%post_id%/ `を指定することを推奨。
+サイト公開後にこちらのパーマリンクを変更すると、SEOにも悪影響が出ると言われているため、公開後の変更はNG。
 
 ## ローカル環境での開発について
 
