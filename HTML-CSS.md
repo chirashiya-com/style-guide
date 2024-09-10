@@ -197,7 +197,7 @@ PHPやRubyの変数名などの命名にはよく使われる記法だが、HTML
 
 <h3>サイトの企業ロゴについて</h3>
 
-極力SVG画像を使用すること。　　
+極力SVG画像を使用すること。  
 （標準ではWordPressのメディアにSVGは入れられないため、オリジナルサイト作成時はSVGを極力入れる）
 
 <h3>a要素にtarget="_blank"属性を付ける場合は、rel="noopener noreferrer"属性もつける</h3>
