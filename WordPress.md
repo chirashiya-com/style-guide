@@ -35,6 +35,7 @@
 
 ```
 <!-- 【OK】functions.phpにフックを書いてスタイルシートやスクリプトを読み込んでいる -->
+
 // CSS ファイルを読み込み
 function add_stylesheet() {
   wp_enqueue_style('reset-handle', get_template_directory_uri() . '/common/css/reset.css', '1.0', false);
