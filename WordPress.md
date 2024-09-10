@@ -189,7 +189,7 @@ add_action('wp_body_open', 'add_gtm_body', 0);
 ### 必須プラグイン
 
 ちらし屋式（仕事のルール）という名称のガイドラインがあるため、そちらの必須プラグインを確認すること。  
-また、不要なプラグインは削除
+また、不要なプラグインは削除すること。
 
 #### Edit Author Slug（著者の記事一覧ページのスラッグを変更）について
 - [Edit Author Slug](https://wordpress.org/plugins/edit-author-slug/)
