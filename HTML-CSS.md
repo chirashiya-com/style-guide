@@ -724,3 +724,8 @@ width、heightの固定値は極力使わず、paddingを指定する。
 - ウェブクリップ：180x180px で作成（こちらは可能であれば用意する）
 
 [Faviconジェネレーター](https://favicon-generator.mintsu-dev.com/)
+
+
+### title、meta属性について
+
+ちらし屋式（仕事のルール）という名称のガイドラインがあるため、そちらの内容を確認すること。
