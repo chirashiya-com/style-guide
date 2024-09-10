@@ -187,6 +187,44 @@ Prefferredの選択で上手くいかない場合は、Apache にすると上手
 
 ## プラグインについて
 
-ちらし屋式（仕事のルール）
+ちらし屋式（仕事のルール）という名称のガイドラインがあるため、そちらの内容を確認すること。
 
+### Edit Author Slug（著者の記事一覧ページのスラッグを変更）について
+
+[Edit Author Slug](https://wordpress.org/plugins/edit-author-slug/)
+
+### functions.phpへの記述方法
 https://www.doe.co.jp/hp-tips/wordpress-login-id-guard/
+
+```
+【OK】functions.php
+
+//author=id から ユーザ名への転送を避ける
+function disable_author_archive_query() {
+	if( preg_match('/author=([0-9]*)/i', $_SERVER['QUERY_STRING']) && !preg_match('/post_author=/i', $_SERVER['QUERY_STRING']) ){
+		wp_redirect( home_url() );
+		exit;
+	}
+}
+add_action('init', 'disable_author_archive_query');
+
+//WP REST API の不要なエンドポイントを削除する
+add_filter('rest_endpoints', function ($endpoints) {
+	if ( isset( $endpoints['/wp/v2/users'] ) ) {
+		unset( $endpoints['/wp/v2/users'] );
+	}
+	if ( isset( $endpoints['/wp/v2/users/(?P[\d]+)'] ) ) {
+		unset( $endpoints['/wp/v2/users/(?P[\d]+)'] );
+	}
+	return $endpoints;
+});
+
+//wp-sitemap.xml 投稿者アーカイブを無効化
+function sitemap_hide_user($provider, $name) {
+	if ('users' === $name) {
+		return false;
+	}
+	return $provider;
+}
+add_filter('wp_sitemaps_add_provider', 'sitemap_hide_user', 10, 2);
+```
