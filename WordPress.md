@@ -205,7 +205,7 @@ add_action('wp_body_open', 'add_gtm_body', 0);
 ちらし屋式（仕事のルール）という名称のガイドラインがあるため、そちらの必須プラグインを確認すること。  
 また、不要なプラグインは削除すること。
 
-#### 必須プラグイン Edit Author Slug（著者の記事一覧ページのスラッグを変更）について
+#### Edit Author Slug（著者の記事一覧ページのスラッグを変更）について（必須プラグイン）
 - [Edit Author Slug](https://wordpress.org/plugins/edit-author-slug/)
 
 ユーザー → プロフィール → 投稿者スラッグ → カスタム設定に任意のローマ字を入れること。
