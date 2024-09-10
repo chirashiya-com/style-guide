@@ -48,6 +48,6 @@ function my_wp_enqueue_scripts() {
 テーマフォルダのディレクトリ構成例の項も参照。
 
 - 共通部分はheader.php、footer.php、sidebar.phpなどにまとめる。
-header.phpには<!DOCTYPE html>の記述も含める。
+header.phpには`<!DOCTYPE html>`の記述も含める。
 - 必要に応じてテンプレートパーツファイルを作成する。
 - headタグ終了直前にはwp_head()関数、bodyタグ開始直後にはwp_body_open()関数、bodyタグ終了直前にはwp_footer()関数への呼び出しを必ず記述する
