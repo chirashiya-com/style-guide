@@ -34,7 +34,7 @@
 ```
 
 ```
-# 【OK】functions.phpにフックを書いてスタイルシートやスクリプトを読み込んでいる
+<!-- 【OK】functions.phpにフックを書いてスタイルシートやスクリプトを読み込んでいる -->
 add_action('wp_enqueue_scripts', 'my_wp_enqueue_scripts');
 function my_wp_enqueue_scripts() {
   wp_enqueue_style( 'common-style', get_template_directory_uri() . '/style.css' );
@@ -51,3 +51,28 @@ function my_wp_enqueue_scripts() {
 header.phpには`<!DOCTYPE html>`の記述も含める。
 - 必要に応じてテンプレートパーツファイルを作成する。
 - headタグ終了直前にはwp_head()関数、bodyタグ開始直後にはwp_body_open()関数、bodyタグ終了直前にはwp_footer()関数への呼び出しを必ず記述する
+
+```
+<!-- 【OK】header.php -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no,address=no,date=no,email=no">
+  <?php wp_head(); ?>
+</head>
+<body>
+<?php wp_body_open(); ?>
+<header>
+</header>
+```
+
+```
+<!-- 【OK】footer.php -->
+<footer>
+</footer>
+<?php wp_footer(); ?>
+</body>
+</html>
+```
