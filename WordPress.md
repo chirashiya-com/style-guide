@@ -173,21 +173,11 @@ add_action('wp_body_open', 'add_gtm_body', 0);
 - そのプラグインを紹介しているブログ記事などを検索し、実際に利用したことのあるユーザーからの評判を確認する
 - 稼働中のサイトに未知のプラグインを導入する場合は、本番環境でいきなり導入する前にローカル環境などで動作確認をすることを強く勧める。
 
-## ローカル環境での開発について
 
-新規のワードプレステーマを作成する場合や既存のワードプレステーマのテンプレートファイルに変更を加える場合は、ローカル環境で確認しながら開発するほうが効率が良い。  
-WordPressのローカル環境構築には[Local by Flywheel](https://localwp.com/)を使うのが最も簡単でおすすめ。  
-インストール方法や使い方は[こちら](https://lucy.ne.jp/bazubu/local-by-flywheel-33920.html)の記事が参考になる。  
-既存のワードプレスサイトのローカルへのコピーにはAll-in-One WP Migrationプラグインを使うと良い。  
-使い方は[こちら](https://www.webdesignleaves.com/pr/wp/wp_all_in_one_wp_migration.html)の記事を参照。  
+### プラグインについて
 
-Prefferredの選択で上手くいかない場合は、Apache にすると上手くいくケースがある。  
-<img width="800" alt="スクリーンショット 2024-09-10 14 30 57" src="https://github.com/user-attachments/assets/c4fd0dcb-a29e-4ae4-b6f6-e84ebeb0d9e5">
-
-
-## プラグインについて
-
-ちらし屋式（仕事のルール）という名称のガイドラインがあるため、そちらの内容を確認すること。
+ちらし屋式（仕事のルール）という名称のガイドラインがあるため、そちらの必須プラグインを確認すること。  
+また、不要なプラグインは
 
 #### Edit Author Slug（著者の記事一覧ページのスラッグを変更）について
 - [Edit Author Slug](https://wordpress.org/plugins/edit-author-slug/)
@@ -227,3 +217,15 @@ function sitemap_hide_user($provider, $name) {
 }
 add_filter('wp_sitemaps_add_provider', 'sitemap_hide_user', 10, 2);
 ```
+
+
+## ローカル環境での開発について
+
+新規のワードプレステーマを作成する場合や既存のワードプレステーマのテンプレートファイルに変更を加える場合は、ローカル環境で確認しながら開発するほうが効率が良い。  
+WordPressのローカル環境構築には[Local by Flywheel](https://localwp.com/)を使うのが最も簡単でおすすめ。  
+インストール方法や使い方は[こちら](https://lucy.ne.jp/bazubu/local-by-flywheel-33920.html)の記事が参考になる。  
+既存のワードプレスサイトのローカルへのコピーにはAll-in-One WP Migrationプラグインを使うと良い。  
+使い方は[こちら](https://www.webdesignleaves.com/pr/wp/wp_all_in_one_wp_migration.html)の記事を参照。  
+
+Prefferredの選択で上手くいかない場合は、Apache にすると上手くいくケースがある。  
+<img width="800" alt="スクリーンショット 2024-09-10 14 30 57" src="https://github.com/user-attachments/assets/c4fd0dcb-a29e-4ae4-b6f6-e84ebeb0d9e5">
