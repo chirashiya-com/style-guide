@@ -55,6 +55,20 @@ function add_stylesheet() {
 add_action('wp_enqueue_scripts', 'add_stylesheet');
 ```
 
+## Google fontsについて
+
+functions.phpに記述すること。
+
+```
+【OK】
+// Google Fonts
+function google_font_scripts() {
+  wp_enqueue_style( 'google-web-style', '//fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap',array(), null );
+}
+
+add_action( 'wp_enqueue_scripts', 'google_font_scripts' );
+```
+
 ## テンプレートファイルの構成について
 
 テーマフォルダのディレクトリ構成例の項も参照。
@@ -242,6 +256,8 @@ title、メタディスクリプションを反映するのに、このプラグ
 
 設定 → パーマリンク → カスタム構造 にて、`/%category%/%post_id%/ `を指定することを推奨。  
 サイト公開後にこちらのパーマリンクを変更すると、SEOにも悪影響が出ると言われているため、公開後の変更はNG。
+
+
 
 ## ローカル環境での開発について
 
