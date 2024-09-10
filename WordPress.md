@@ -129,8 +129,7 @@ Custom Post Type UIプラグインで作成する。functions.phpの記述で作
 
 ## カスタムフィールド
 
-[Advanced Cumtom Fields](https://ja.wordpress.org/plugins/advanced-custom-fields/)プラグインで作成する。  
-functions.phpの記述で作成しない。
+[Advanced Cumtom Fields](https://ja.wordpress.org/plugins/advanced-custom-fields/)プラグインで作成する。functions.phpの記述で作成しない。
 
 ## お問合せフォーム
 
