@@ -184,3 +184,9 @@ WordPressのローカル環境構築には[Local by Flywheel](https://localwp.co
 Prefferredの選択で上手くいかない場合は、Apache にすると上手くいくケースがある。  
 <img width="800" alt="スクリーンショット 2024-09-10 14 30 57" src="https://github.com/user-attachments/assets/c4fd0dcb-a29e-4ae4-b6f6-e84ebeb0d9e5">
 
+
+## プラグインについて
+
+ちらし屋式（仕事のルール）
+
+https://www.doe.co.jp/hp-tips/wordpress-login-id-guard/
