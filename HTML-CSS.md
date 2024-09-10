@@ -257,10 +257,11 @@ img {
   max-width: 100%;
 }
 
-/* レイアウト用 */
+/* インナー幅 */
 .inner {
- width: 960px;
- margin: 0 auto;
+ max-width: 1200px;
+ width: 100%;
+ margin-inline: auto;
 }
 ```
 
