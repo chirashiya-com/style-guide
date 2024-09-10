@@ -231,6 +231,11 @@ add_filter('wp_sitemaps_add_provider', 'sitemap_hide_user', 10, 2);
 ```
 
 
+## OGP画像について
+SEO SIMPLE PACK の設定から入れることができるので、そちらから入れることも可。
+https://ja.wordpress.org/plugins/seo-simple-pack/
+
+
 ## ローカル環境での開発について
 
 新規のワードプレステーマを作成する場合や既存のワードプレステーマのテンプレートファイルに変更を加える場合は、ローカル環境で確認しながら開発するほうが効率が良い。  
