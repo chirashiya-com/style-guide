@@ -194,6 +194,9 @@ add_action('wp_body_open', 'add_gtm_body', 0);
 #### Edit Author Slug（著者の記事一覧ページのスラッグを変更）について
 - [Edit Author Slug](https://wordpress.org/plugins/edit-author-slug/)
 
+ユーザー → プロフィール → 投稿者スラッグ → カスタム設定に任意のローマ字を入れること。
+
+
 #### functions.phpへの記述方法
 - https://www.doe.co.jp/hp-tips/wordpress-login-id-guard/  
 
