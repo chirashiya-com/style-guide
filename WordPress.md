@@ -117,7 +117,7 @@ Custom Post Type UIプラグインで作成する。functions.phpの記述で作
 
 ## カスタムフィールド
 
-Advanced Cumtom FieldsプラグインまたはSmart Custom Fieldsプラグインで作成する。functions.phpの記述で作成しない。
+Advanced Cumtom Fieldsプラグインで作成する。functions.phpの記述で作成しない。
 
 ## お問合せフォーム
 
