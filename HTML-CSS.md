@@ -535,10 +535,7 @@ NG letter-spacing: 1px
 Sassで書かれたサイトを編集する際は、原則Sassファイルを修正すること。  
 style.cssを直接修正すると、Sassファイルを更新した際に上書きがされる恐れがある。
 
-#### Sassのコンパイル方法
-Visual Studio Codeを使用している場合、Live Sass Compilerという拡張機能でSassをコンパイルするのがおすすめ。
-
-- 参考記事：[Visual Studio CodeでSassを自動でコンパイルする](https://blanche-toile.com/web/vscode-live-sass-compiler)
+詳しくは[こちらの](https://github.com/mukai-chirashiya/style-guide/blob/master/HTML-CSS.md#sass%E3%81%A7%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E3%82%92%E6%9B%B8%E3%81%8F)ガイドラインを見る。
 
 ### レスポンシブ対応について
 ####ブレイクポイント
