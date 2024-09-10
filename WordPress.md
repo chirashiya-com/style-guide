@@ -154,6 +154,6 @@ WordPressのローカル環境構築には[Local by Flywheel](https://localwp.co
 既存のワードプレスサイトのローカルへのコピーにはAll-in-One WP Migrationプラグインを使うと良い。  
 使い方は[こちら](https://www.webdesignleaves.com/pr/wp/wp_all_in_one_wp_migration.html)の記事を参照。  
 
-Prefferredの選択で上手くいかない場合は、Apache にすると上手くいくケースがある。
+Prefferredの選択で上手くいかない場合は、Apache にすると上手くいくケースがある。  
 <img width="800" alt="スクリーンショット 2024-09-10 14 30 57" src="https://github.com/user-attachments/assets/c4fd0dcb-a29e-4ae4-b6f6-e84ebeb0d9e5">
 
