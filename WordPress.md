@@ -232,7 +232,7 @@ add_filter('wp_sitemaps_add_provider', 'sitemap_hide_user', 10, 2);
 
 
 ## OGP画像について
-(SEO SIMPLE PACK)[https://ja.wordpress.org/plugins/seo-simple-pack/] の設定から入れることができるので、そちらから入れることも可。
+[SEO SIMPLE PACK](https://ja.wordpress.org/plugins/seo-simple-pack/) の設定から入れることができるので、そちらから入れることも可。
 
 
 ## ローカル環境での開発について
