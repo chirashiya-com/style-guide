@@ -214,7 +214,7 @@ HTMLとCSSは同時に書くのは避ける。HTMLとCSSを並行して書くと
 HTMLを書き終わってからCSSを書くほうが、設計に一貫性をもたせやすく、コーディング完了までのスピードも速くなる。
 
 
-## 4. CSSのスタイルガイド
+## 4.CSSのスタイルガイド
 
 GoogleのエンジニアPhilip Waltonによる記事「[CSS Architecture](https://philipwalton.com/articles/css-architecture/)」では、CSSを設計する時に目指すべき４つのゴールが紹介されている。
 
