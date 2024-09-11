@@ -54,7 +54,9 @@ HTML/CSSのコーディングは自由度が高いため、コーダーが独自
 ```
 <!-- NG -->
 <header>
-  <h1><img src="image/common/logo.svg" alt="株式会社〇〇"></h1>
+  <h1>
+    <img src="image/common/logo.svg" alt="株式会社〇〇">
+  </h1>
 </header>
 <main>
   <section>
@@ -68,7 +70,9 @@ HTML/CSSのコーディングは自由度が高いため、コーダーが独自
 ```
 <!-- 【OK】TOPページ -->
 <header>
-  <h1><img src="image/common/logo.svg" alt="株式会社〇〇"></h1>
+  <h1>
+    <img src="image/common/logo.svg" alt="株式会社〇〇">
+  </h1>
 </header>
 <main>
   <section>
@@ -80,7 +84,9 @@ HTML/CSSのコーディングは自由度が高いため、コーダーが独自
 ```
 <!-- 【OK】サブページ -->
 <header>
-  <div><img src="image/common/logo.svg" alt="株式会社〇〇"></div>
+  <div>
+    <img src="image/common/logo.svg" alt="株式会社〇〇">
+  </div>
 </header>
 <main>
   <section>
