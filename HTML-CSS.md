@@ -139,16 +139,21 @@ HTML/CSSのコーディングは自由度が高いため、コーダーが独自
 
 ### パス表記
 
-サイト内のリソースへのパス表記は、基本的にルートパス（/から始まる表記）で記述する。
+サイト内のリソースへのパス表記は、基本的にルートパス（/から始まる表記）で記述すること。
 
 ```
-<!-- 【NG】 -->
+<!-- 【OK】 -->
+<img src="/subpage/example.png" alt="">
+```
+
+```
+<!-- 【非推奨】 -->
 <!-- 相対パスになっている -->
 <img src="test.png" alt="">
 <img src="./test.png" alt="">
 
 <!-- 絶対パスになっている -->
-<img src="https://example.com/images/top/test.png" alt="">
+<img src="https://example.com/test.png" alt="">
 ```
 
 
