@@ -1,4 +1,9 @@
-<h1>ちらし屋HTML/CSSスタイルガイド 2024年作成</h1>
+# ちらし屋HTML/CSSスタイルガイド 2024年作成
+
+- [はじめに](#start)
+- [基本方針](policy)
+- HTML/CSS基本ルール
+- CSSのスタイルガイド
 
 <ol>
   <li><a href="#start">はじめに</a></li>
