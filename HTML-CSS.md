@@ -71,7 +71,7 @@ HTML/CSSのコーディングは自由度が高いため、コーダーが独自
 <!-- 【OK】TOPページ -->
 <header>
   <h1>
-    <img src="image/common/logo.svg" alt="株式会社〇〇">
+    <img src="images/common/logo.svg" alt="株式会社〇〇">
   </h1>
 </header>
 <main>
@@ -85,7 +85,7 @@ HTML/CSSのコーディングは自由度が高いため、コーダーが独自
 <!-- 【OK】サブページ -->
 <header>
   <div>
-    <img src="image/common/logo.svg" alt="株式会社〇〇">
+    <img src="images/common/logo.svg" alt="株式会社〇〇">
   </div>
 </header>
 <main>
@@ -120,6 +120,37 @@ HTML/CSSのコーディングは自由度が高いため、コーダーが独自
   }
 }
 ```
+
+### 空要素の末尾
+
+空要素は末尾スラッシュ文字なし（HTML構文）で記述する。
+
+```
+<-- 【OK】 -->
+<br>
+<img src="/images/top/test.jpg" alt="">
+```
+
+```
+<!-- 【NG】 -->
+<br />
+<img src="/images/top/test.jpg" alt="" />
+```
+
+### パス表記
+
+サイト内のリソースへのパス表記は、基本的にルートパス（/から始まる表記）で記述する。
+
+```
+<!-- 【NG】 -->
+<!-- 相対パスになっている -->
+<img src="test.png" alt="">
+<img src="./test.png" alt="">
+
+<!-- 絶対パスになっている -->
+<img src="https://example.com/images/top/test.png" alt="">
+```
+
 
 ### クラス名やID名の命名について
 #### 単語の区切りには-(ハイフン)を使う
