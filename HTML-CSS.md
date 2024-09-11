@@ -216,7 +216,7 @@ HTMLを書き終わってからCSSを書くほうが、設計に一貫性をも�
 
 ## 4. CSSのスタイルガイド
 
-GoogleのエンジニアPhilip Waltonによる記事「<a href="https://philipwalton.com/articles/css-architecture/">CSS Architecture</a>」では、CSSを設計する時に目指すべき４つのゴールが紹介されている。
+GoogleのエンジニアPhilip Waltonによる記事「[CSS Architecture](https://philipwalton.com/articles/css-architecture/)」では、CSSを設計する時に目指すべき４つのゴールが紹介されている。
 
 - 予測しやすい - クラス名や構造などからふるまいを容易に想像できる。
 - 再利用しやすい - 必要に応じて他の場所でも同じように使いまわしができる。
@@ -268,8 +268,9 @@ img {
 }
 ```
 
-<h3>不要なスタイルの重複記述を避ける</h3>
-<p>不要な重複記述は保守性を悪化させるため、不必要なスタイルの記述の重複がないようする。</p>
+### 不要なスタイルの重複記述を避ける
+
+不要な重複記述は保守性を悪化させるため、不必要なスタイルの記述の重複がないようする。
 
 ```
 /*【NG】無駄な重複がある。 */
