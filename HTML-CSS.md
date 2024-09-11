@@ -50,16 +50,41 @@ HTML/CSSのコーディングは自由度が高いため、コーダーが独自
 
 - h1タグは1ページに1つのみで、重複している際は必ず修正する。
 - よくあるケースがWordPressにて、ロゴのh1タグとサブページ見出しのh1が被っていることがあるので注意。
-- その場合は、「TOPページのロゴはh1」「サブページのロゴはdivタグ」に変更し、サブページの見出しをh1とすること。
 
 ```
 <!-- NG -->
 <header>
-  <h1><img src="image/common/logo.svg"></h1>
+  <h1><img src="image/common/logo.svg" alt="株式会社〇〇"></h1>
 </header>
 <main>
   <section>
     <h1>見出し</h1>
+  </section>
+</main>
+```
+
+- その場合は、「TOPページのロゴはh1」「サブページのロゴはdivタグ」に変更し、サブページの見出しをh1とすること。
+
+```
+<!-- 【OK】TOPページ -->
+<header>
+  <h1><img src="image/common/logo.svg" alt="株式会社〇〇"></h1>
+</header>
+<main>
+  <section>
+    <h1>TOPページ見出し</h1>
+  </section>
+</main>
+```
+
+```
+<!-- 【OK】サブページ -->
+<header>
+  <div><img src="image/common/logo.svg" alt="株式会社〇〇"></div>
+</header>
+<main>
+  <section>
+    <h1>サブページ見出し</h1>
   </section>
 </main>
 ```
