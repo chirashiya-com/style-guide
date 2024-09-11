@@ -1,18 +1,11 @@
 # ちらし屋HTML/CSSスタイルガイド 2024年作成
 
-- [はじめに](#start)
-- [基本方針](policy)
-- HTML/CSS基本ルール
-- CSSのスタイルガイド
+- [はじめに](#1.はじめに)
+- [基本方針](#policy)
+- [HTML/CSS基本ルール](#rule)
+- [CSSのスタイルガイド](#style-guide)
 
-<ol>
-  <li><a href="#start">はじめに</a></li>
-  <li><a href="#policy">基本方針</li>
-  <li><a href="#rule">HTML/CSS基本ルール</li>
-  <li><a href="#style-guide">CSSのスタイルガイド</li>
-</ol>
-
-<h2 id="start">1.はじめに</h2>
+## 1.はじめに
 
 <p>HTML/CSSのコーディングは自由度が高いため、コーダーが独自のルールで書くと修正や拡張がしにくいコードが作られがちです。<br>
 そのような事態を回避するには、一貫した規則や設計のもとにコードを書くことが重要です。<br>
