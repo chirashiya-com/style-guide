@@ -519,26 +519,27 @@ font-size: min(40 / 1920* 100vw, 40px); /* ブラウザ幅が1920px以下にな�
 font-size: min(30 / 1440* 100vw, 30px); /* ブラウザ幅が1440px以下になった際、30pxがブラウザ幅に応じて縮小する */
 font-size: min(20 / 384* 100vw, 20px); /* ブラウザ幅が384px以下になった際、20pxがブラウザ幅に応じて縮小する */
 ```
-<p><a href="https://developer.mozilla.org/ja/docs/Web/CSS/min">MMD min()</a></p>
 
+[MMD min()](https://developer.mozilla.org/ja/docs/Web/CSS/min)
 
-<h4>line-height</h4>
+#### line-height
 単位なしの相対値で設定する。pxなどの固定値で設定しない。
 <b>OK</b>　line-height: 1.6;
 <b>NG</b>　line-height: 20px;
 
-<h4>letter-spacing</h4>
+#### letter-spacing
 OK letter-spacing: 0.04em
 NG letter-spacing: 1px
 
 
 ### リセットCSSを使用する
-<p>新規のコーディングプロジェクトにはリセットCSSを使用する。（時代によって変化するため、最新の情報を確認すること）</p>
-<p>おすすめのリセットCSS</p>
-<ul>
-  <li><a href="https://github.com/nicolas-cusan/destyle.css/blob/master/destyle.css">destyle.css</a></li>
-  <li><a href="https://coliss.com/articles/build-websites/operation/css/css-reset-for-modern-browser.html">coliss</a></li>
-</ul>
+新規のコーディングプロジェクトにはリセットCSSを使用する。（時代によって変化するため、最新の情報を確認すること）
+
+おすすめのリセットCSS
+
+- [destyle.css](https://github.com/nicolas-cusan/destyle.css/blob/master/destyle.css)
+- [coliss](https://coliss.com/articles/build-websites/operation/css/css-reset-for-modern-browser.html)
+
 
 ### Sassについて
 Sassで書かれたサイトを編集する際は、原則Sassファイルを修正すること。  
