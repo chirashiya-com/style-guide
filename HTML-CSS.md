@@ -137,10 +137,11 @@ PHPやRubyの変数名などの命名にはよく使われる記法だが、HTML
   </li>
 </ul>
 
-<a href="https://github.com/chirashiya-com/style-guide/blob/main/IMAGE.md">jpg、pngの使い分けについて</a>
+[jpg、pngの使い分けについて](https://github.com/chirashiya-com/style-guide/blob/main/IMAGE.md)
 
-<h4>img要素にはalt属性を必ずつける</h4>
-<p>※altに入れるテキストが不明な場合は、納品までに必ず確認して入れること。altが空のまま納品しない。</p>
+#### img要素にはalt属性を必ずつける
+
+※altに入れるテキストが不明な場合は、納品までに必ず確認して入れること。altが空のまま納品しない。
 
 ```
 <!--【OK】-->
@@ -152,14 +153,12 @@ PHPやRubyの変数名などの命名にはよく使われる記法だが、HTML
 <img src="./images/foo.png" alt="">
 ```
 
-<h4>img要素にはwidth属性とheight属性を必ず記述する</h4>
-<ul>
-  <li>ページの読み込み速度に有利と言われている。<br>また、SVG形式の画像や、2xの解像度で書き出した画像のデフォルトの大きさを設定するのに使うと便利。</li>
-  <li>width、height属性の記述がない場合、ブラウザが画像サイズを再計算する動作が生じるため、読み込み速度に影響が出ると言われている。</li>
-  <li>
-    <a href="https://coliss.com/articles/build-websites/operation/work/avoiding-img-layout-shifts.html">レイアウトシフトの防止になるため</a>
-  </li>
-</ul>
+#### img要素にはwidth属性とheight属性を必ず記述する
+
+- ページの読み込み速度に有利と言われている。<br>また、SVG形式の画像や、2xの解像度で書き出した画像のデフォルトの大きさを設定するのに使うと便利。
+- width、height属性の記述がない場合、ブラウザが画像サイズを再計算する動作が生じるため、読み込み速度に影響が出ると言われている。
+- [レイアウトシフトの防止になるため](https://coliss.com/articles/build-websites/operation/work/avoiding-img-layout-shifts.html)
+
 
 ```
 <!--【OK】width、heightの両方必須 -->
@@ -167,35 +166,37 @@ PHPやRubyの変数名などの命名にはよく使われる記法だが、HTML
 ```
 
 
-<h4>ブラウザに最初に表示される領域以外は、loading="lazy"を必ず記述する</h4>
+#### ブラウザに最初に表示される領域以外は、loading="lazy"を必ず記述する
 
 ```
 <!--【OK】loading="lazy" -->
 <img src="./images/sample.png" alt="サンプル画像" width="120" height="60" loading="lazy">
 ```
 
-<h4>画像ファイルの命名</h4>
-<p>役割が分かるように接頭辞を入れることを推奨する。<br>ファイル内に並ぶ画像もabc順になるため、画像の管理がしやすくなる。</p>
-<p>接頭辞の例</p>
-<ul>
-  <li>ico- アイコン（例 ico-star.png）</li>
-  <li>pic- 写真 または img- 写真</li>
-  <li>txt- テキスト</li>
-  <li>bg- 　背景</li>
-  <li>arw- 矢印<br>など</li>
-</ul>
+#### 画像ファイルの命名
+役割が分かるように接頭辞を入れることを推奨する。<br>ファイル内に並ぶ画像もabc順になるため、画像の管理がしやすくなる。
 
-<h3>mp4動画について</h3>
+接頭辞の例
+
+- ico- アイコン（例 ico-star.png）
+- pic- 写真 または img- 写真
+- txt- テキスト
+- bg- 　背景
+- arw- 矢印<br>など
+
+
+### mp4動画について
 
 20MB以下に抑えるように圧縮する。
 
-<h3>サイトの企業ロゴについて</h3>
+### サイトの企業ロゴについて
 
 極力SVG画像を使用すること。  
 （標準ではWordPressのメディアにSVGは入れられないため、オリジナルサイト作成時はSVGを極力入れる）
 
-<h3>a要素にtarget="_blank"属性を付ける場合は、rel="noopener noreferrer"属性もつける</h3>
-<p>XSS攻撃に対する脆弱性を防ぐため。</p>
+### a要素にtarget="_blank"属性を付ける場合は、rel="noopener noreferrer"属性もつける
+
+XSS攻撃に対する脆弱性を防ぐため。
 
 ```
 <!--【OK】-->
