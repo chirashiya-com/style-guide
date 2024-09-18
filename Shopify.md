@@ -3,6 +3,7 @@
 - [はじめに](#1はじめに)
 - [テーマについて](#2テーマについて)
 - [アプリについて](#3アプリについて)
+- [技術参考サイト](#4技術参考サイト)
 
 ## 1.はじめに
 
@@ -48,48 +49,50 @@ https://ja.komoju.com/blog/shopify/shopify-themes/
 
 #### ▽無料アプリ
 
-・Shopify Flow（※設定必須）  
+・[Shopify Flow（※設定必須）](https://apps.shopify.com/flow?locale=ja)  
 リスク「高」の注文は自動キャンセルされるよう設定できます（設定する項目は、過去に構築したストアを見ること）。  
 リスク「高」は自動キャンセルしてOKか、アプリ導入時に顧客に確認すること。  
-https://apps.shopify.com/flow?locale=ja
 
-・配送＆注文サポーター（配送日時指定）  
-https://apps.shopify.com/custom-field-app?locale=ja
+・[配送＆注文サポーター](https://apps.shopify.com/custom-field-app?locale=ja)  
+配送日時指定
 
-・Instafeed（TOPページににインスタを反映させるのか）  
-https://apps.shopify.com/instafeed?locale=ja
+・[Instafeed](https://apps.shopify.com/instafeed?locale=ja)  
+テーマにインスタを反映させる
 
-・Order Printer
+・[Order Printer](https://apps.shopify.com/shopify-order-printer?locale=ja)  
 領収証の発行機能を設定できます。  
-https://apps.shopify.com/shopify-order-printer?locale=ja
 
-・Shopifyメール  
+
+・[Shopifyメール](https://apps.shopify.com/shopify-email)  
 会員登録 or メール配信を許可した顧客に対し、メール配信ができるよう設定できます。  
-https://apps.shopify.com/shopify-email
 
-・商品レビュー  
+
+・[商品レビュー](https://apps.shopify.com/judgeme?locale=ja)  
 商品注文者のみ、商品のレビューができるよう設定もできます。  
 ストア公開前に手動でレビュ―書けるので、載せて欲しいレビューがあれば手動で設定できます。  
-https://apps.shopify.com/judgeme?locale=ja
 
-・Search & Discovery  
+・[Search & Discovery](https://apps.shopify.com/search-and-discovery?locale=ja)  
 商品の絞り込み検索、関連商品の表示を設定できます。  
-https://apps.shopify.com/search-and-discovery?locale=ja
 
 
 #### ▽有料アプリ
-・Ship ＆ Co  
+・[Ship ＆ Co](https://apps.shopify.com/shipandco?locale=ja)  
 送り状発行までのフローを自動化。発行1件につき33円。  
-https://apps.shopify.com/shipandco?locale=ja
 
-・MR.DAIBIKI  
+・[MR.DAIBIKI](https://apps.shopify.com/mr-daibiki?locale=ja)  
 代引きの金額を、注文管理画面、注文メールに反映できます。  
-https://apps.shopify.com/mr-daibiki?locale=ja
 
-・ギフトラッピング＆のし専用アプリ  
+・[ギフトラッピング＆のし専用アプリ](https://apps.shopify.com/giftwrappingpaper?locale=ja)  
 カート画面に「ラッピング、のし」の選択項目を追加できます。  
-https://apps.shopify.com/giftwrappingpaper?locale=ja
 
-・Hextom: Translate and Currency（ストアの多言語化）  
-https://apps.shopify.com/translate-my-store?locale=ja
+・[Hextom: Translate and Currency](https://apps.shopify.com/translate-my-store?locale=ja)  
+ストアの多言語化
 
+## 4.技術参考サイト
+
+- [Shopify公式dev(Tags)](https://shopify.dev/docs/api/liquid/tags#liquid)
+- [Shopify公式dev(Object)](https://shopify.dev/docs/api/liquid/objects)
+- [Liquidチートシート](https://www.shopify.com/partners/shopify-cheat-sheet)  
+- [しょぴくら](https://crafti-fy.jp/blogs/shopify)  
+- [ハックルベリー(Shopifyアプリ開発大手)](https://ec.huckleberry-inc.com/)  
+- [ハックルベリー(Shopify最速アップデート情報)](https://www.youtube.com/@Huckleberry-shopify/videos)
