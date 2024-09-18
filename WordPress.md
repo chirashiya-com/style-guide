@@ -166,8 +166,8 @@ Custom Post Type UIプラグインで作成する。functions.phpの記述で作
 
 ## お問合せフォーム
 
-プラグインを使う場合はContact Form 7かMW WP Formを使用する。  
-プラグインを使用しない場合はmail.phpを使う。
+プラグインを使う場合は Contact Form 7 を使用する。  
+プラグインを使用しない場合は mail.php を使う。
 
 ## サードパーティ製のテーマをカスタマイズする場合
 
