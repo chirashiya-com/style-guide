@@ -35,5 +35,55 @@ https://dtnavi.tcdigital.jp/shopify/shopify-theme-paid/
 https://ec.huckleberry-inc.com/archives/1482  
 https://ja.komoju.com/blog/shopify/shopify-themes/
 
+### アプリまとめ
 
+アプリ導入時は、公開されていないテストストアに導入してみて動作を確認すること。  
+アプリを消しても、アプリ自体のコードが残る場合あり、それが不具合に繋がるケースも報告されているため。
+
+#### ▽無料アプリ
+
+・Shopify Flow（※設定必須）  
+リスク「高」の注文は自動キャンセルされるよう設定できます。  
+リスク「高」は自動キャンセルしてOKか、アプリ導入時に顧客に確認すること。  
+https://apps.shopify.com/flow?locale=ja
+
+・配送＆注文サポーター（配送日時指定）  
+https://apps.shopify.com/custom-field-app?locale=ja
+
+・Instafeed（TOPページににインスタを反映させるのか）  
+https://apps.shopify.com/instafeed?locale=ja
+
+・Order Printer
+領収証の発行機能を設定できます。  
+https://apps.shopify.com/shopify-order-printer?locale=ja
+
+・Shopifyメール  
+会員登録 or メール配信を許可した顧客に対し、メール配信ができるよう設定できます。  
+https://apps.shopify.com/shopify-email
+
+・商品レビュー  
+商品注文者のみ、商品のレビューができるよう設定もできます。  
+ストア公開前に手動でレビュ―書けるので、載せて欲しいレビューがあれば手動で設定できます。  
+https://apps.shopify.com/judgeme?locale=ja
+
+・Search & Discovery  
+商品の絞り込み検索、関連商品の表示を設定できます。  
+https://apps.shopify.com/search-and-discovery?locale=ja
+
+
+#### ▽有料アプリ
+・Ship ＆ Co  
+送り状発行までのフローを自動化。発行1件につき33円。  
+https://apps.shopify.com/shipandco?locale=ja
+
+・MR.DAIBIKI  
+代引きの金額を、注文管理画面、注文メールに反映できます。  
+https://apps.shopify.com/mr-daibiki?locale=ja
+
+・ギフトラッピング＆のし専用アプリ  
+カート画面に「ラッピング、のし」の選択項目を追加できます。  
+https://apps.shopify.com/giftwrappingpaper?locale=ja
+
+・Hextom: Translate and Currency（ストアの多言語化）  
+https://apps.shopify.com/translate-my-store?locale=ja
 
