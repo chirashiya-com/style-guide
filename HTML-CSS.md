@@ -36,6 +36,7 @@
   - [ボタン](#ボタンについて)
   - [ogp、ファビコン、ウェブクリップ画像](#ogp画像ファビコンウェブクリップ画像について)
   - [title、meta属性について](#titlemeta属性について)
+  - [CSSフレームワーク](#CSSフレームワーク)
 
 ## 1.はじめに
 
@@ -862,3 +863,12 @@ width、heightの固定値は極力使わず、paddingを指定する。
 ### title、meta属性について
 
 ちらし屋式（仕事のルール）という名称のガイドラインがあるため、そちらの内容を確認すること。
+
+### CSSフレームワーク
+
+CSSフレームワークの導入は非推奨。  
+導入前は社内で確認すること。
+
+- [Bootstrap](https://getbootstrap.jp/)
+- [tailwindcss](https://tailwindcss.com/)
+
