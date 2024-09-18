@@ -866,8 +866,7 @@ width、heightの固定値は極力使わず、paddingを指定する。
 
 ### CSSフレームワーク
 
-CSSフレームワークの導入は非推奨。  
-導入前は社内で確認すること。
+CSSフレームワークの導入は非推奨。導入前は社内で確認すること。
 
 - [Bootstrap](https://getbootstrap.jp/)
 - [tailwindcss](https://tailwindcss.com/)
