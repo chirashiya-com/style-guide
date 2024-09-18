@@ -76,7 +76,9 @@ add_action('wp_enqueue_scripts', 'add_stylesheet');
 
 ## Google fontsについて
 
-functions.phpに記述すること。
+functions.phpに記述すること。  
+Google fontsをサイトに2つ以上追加すると、サイトが重くなるため非推奨。  
+2つ以上追加する場合は、[Page Speed Insights](https://pagespeed.web.dev/?hl=ja) の数値を都度確認すること。
 
 ```
 //【OK】
