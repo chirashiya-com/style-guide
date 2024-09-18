@@ -36,7 +36,7 @@ https://dtnavi.tcdigital.jp/shopify/shopify-theme-paid/
 https://ec.huckleberry-inc.com/archives/1482  
 https://ja.komoju.com/blog/shopify/shopify-themes/
 
-## アプリについて
+## 3.アプリについて
 
 アプリ導入時は、公開されていないテストストアに導入してみて動作を確認すること。  
 アプリを消しても、アプリ自体のコードが残る場合あり、それが不具合に繋がるケースも報告されているため。
