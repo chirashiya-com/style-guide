@@ -91,8 +91,20 @@ https://ja.komoju.com/blog/shopify/shopify-themes/
 
 ## 4.支払い方法について
 
+### 支払いの種類
+
+事前に各サービスと連携が必要な決済があるため、導入前に確認すること。
+
+- Amazon Pay、PayPal、コンビニ決済（KOMOJU）、Diners Club、LINE Pay、PayPay、メルPay。
+
+Shopifyペイメントを有効にした場合の決済。
+
+- Visa、Mastercard、アメリカンエキスプレス、JCB（審査に最大3週間程掛かる場合あり）、Shop Pay、Apple Pay、Google Pay
+
+### メールの文面
+
 支払い方法（銀行振込、代引き、郵便振替）に応じて、注文メールのカスタマイズが必要になる。  
-必ずテスト注文を行い、メールの内容を確認すること。  
+必ず各支払い毎にテスト注文を行い、メールの内容を確認すること。  
 https://help.shopify.com/ja/manual/checkout-settings/test-orders  
 https://help.shopify.com/ja/manual/payments/shopify-payments/testing-shopify-payments
 
