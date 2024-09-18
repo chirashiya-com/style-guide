@@ -2,6 +2,7 @@
 
 - [はじめに](#1はじめに)
 - [テーマについて](#2テーマについて)
+- [アプリについて](#3アプリについて)
 
 ## 1.はじめに
 
@@ -35,7 +36,7 @@ https://dtnavi.tcdigital.jp/shopify/shopify-theme-paid/
 https://ec.huckleberry-inc.com/archives/1482  
 https://ja.komoju.com/blog/shopify/shopify-themes/
 
-### アプリまとめ
+## アプリについて
 
 アプリ導入時は、公開されていないテストストアに導入してみて動作を確認すること。  
 アプリを消しても、アプリ自体のコードが残る場合あり、それが不具合に繋がるケースも報告されているため。
@@ -43,7 +44,7 @@ https://ja.komoju.com/blog/shopify/shopify-themes/
 #### ▽無料アプリ
 
 ・Shopify Flow（※設定必須）  
-リスク「高」の注文は自動キャンセルされるよう設定できます。  
+リスク「高」の注文は自動キャンセルされるよう設定できます（設定する項目は、過去に構築したストアを見ること）。  
 リスク「高」は自動キャンセルしてOKか、アプリ導入時に顧客に確認すること。  
 https://apps.shopify.com/flow?locale=ja
 
