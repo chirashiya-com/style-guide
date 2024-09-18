@@ -3,8 +3,8 @@
 - [はじめに](#1はじめに)
 - [テーマについて](#2テーマについて)
 - [アプリについて](#3アプリについて)
-- [技術参考サイト](#4技術参考サイト)
-- 
+- [支払い方法について](#4支払い方法について)
+- [技術参考サイト](#5技術参考サイト)
 
 ## 1.はじめに
 
@@ -62,18 +62,18 @@ https://ja.komoju.com/blog/shopify/shopify-themes/
 
 ・[Order Printer](https://apps.shopify.com/shopify-order-printer?locale=ja)  
 領収証の発行機能を設定できます。  
-アプリ内にLiquidコードを入れる必要があるため、過去に構築したストアから引用する。
+アプリ内にLiquidコードを入れる必要があるため、過去に構築したストア（VANGA）から引用することを推奨。
 
 ・[Shopifyメール](https://apps.shopify.com/shopify-email)  
-会員登録 or メール配信を許可した顧客に対し、メール配信ができるよう設定できます。  
+会員登録 or メール配信を許可した顧客に対し、メール配信ができるよう設定できる。  
 
 
 ・[商品レビュー](https://apps.shopify.com/judgeme?locale=ja)  
-商品注文者のみ、商品のレビューができるよう設定もできます。  
-ストア公開前に手動でレビュ―書けるので、載せて欲しいレビューがあれば手動で設定できます。  
+商品注文者のみ、商品のレビューができるよう設定もできる。  
+ストア公開前に手動でレビュ―書けるので、載せて欲しいレビューがあれば手動で設定できる。  
 
 ・[Search & Discovery](https://apps.shopify.com/search-and-discovery?locale=ja)  
-商品の絞り込み検索、関連商品の表示を設定できます。  
+商品の絞り込み検索、関連商品の表示を設定できる。  
 
 
 #### ▽有料アプリ
@@ -81,15 +81,22 @@ https://ja.komoju.com/blog/shopify/shopify-themes/
 送り状発行までのフローを自動化。発行1件につき33円。  
 
 ・[MR.DAIBIKI](https://apps.shopify.com/mr-daibiki?locale=ja)  
-代引きの金額を、注文管理画面、注文メールに反映できます。  
+代引きの金額を、注文管理画面、注文メールに反映できる。  
 
 ・[ギフトラッピング＆のし専用アプリ](https://apps.shopify.com/giftwrappingpaper?locale=ja)  
-カート画面に「ラッピング、のし」の選択項目を追加できます。  
+カート画面に「ラッピング、のし」の選択項目を追加できる。  
 
 ・[Hextom: Translate and Currency](https://apps.shopify.com/translate-my-store?locale=ja)  
 ストアの多言語化
 
-## 4.技術参考サイト
+## 4.支払い方法について
+
+支払い方法（銀行振込、代引き、郵便振替）に応じて、注文メールのカスタマイズが必要になる。  
+必ずテスト注文を行い、メールの内容を確認すること。  
+https://help.shopify.com/ja/manual/checkout-settings/test-orders  
+https://help.shopify.com/ja/manual/payments/shopify-payments/testing-shopify-payments
+
+## 5.技術参考サイト
 
 - [Shopify公式dev(Tags)](https://shopify.dev/docs/api/liquid/tags#liquid)
 - [Shopify公式dev(Object)](https://shopify.dev/docs/api/liquid/objects)
