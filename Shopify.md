@@ -4,6 +4,7 @@
 - [テーマについて](#2テーマについて)
 - [アプリについて](#3アプリについて)
 - [技術参考サイト](#4技術参考サイト)
+- 
 
 ## 1.はじめに
 
@@ -61,7 +62,7 @@ https://ja.komoju.com/blog/shopify/shopify-themes/
 
 ・[Order Printer](https://apps.shopify.com/shopify-order-printer?locale=ja)  
 領収証の発行機能を設定できます。  
-
+アプリ内にLiquidコードを入れる必要があるため、過去に構築したストアから引用する）
 
 ・[Shopifyメール](https://apps.shopify.com/shopify-email)  
 会員登録 or メール配信を許可した顧客に対し、メール配信ができるよう設定できます。  
