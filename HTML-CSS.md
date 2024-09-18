@@ -11,7 +11,7 @@
   - [画像の取り扱い](#画像の取り扱いについて)
   - [mp4動画](#mp4動画について)
   - [サイトの企業ロゴ](#サイトの企業ロゴについて)
-  - [a要素のtarget_blank属性](#a要素にtarget_blank属性を付ける場合はrelnoopener-noreferrer属性もつける)
+  - [target_blank属性](#a要素にtarget_blank属性を付ける場合はrelnoopener-noreferrer属性もつける)
   - [htmlを一通り書く](#htmlを一通り書いてからcssを書く任意)
 - [CSSのスタイルガイド](#4cssのスタイルガイド)
 
