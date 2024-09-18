@@ -22,3 +22,8 @@ Dawnを推奨する。
 
 ### 有料テーマ
 
+ケースに合ったテーマを選定する。
+
+https://dtnavi.tcdigital.jp/shopify/shopify-theme-paid/  
+https://ec.huckleberry-inc.com/archives/1482  
+https://ja.komoju.com/blog/shopify/shopify-themes/
