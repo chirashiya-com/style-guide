@@ -104,7 +104,7 @@ Shopifyペイメントを有効にした場合の決済。
 ### メールの文面
 
 支払い方法（銀行振込、代引き、郵便振替）に応じて、注文メールのカスタマイズが必要になる。  
-必ず各支払い毎にテスト注文を行い、メールの内容を確認すること。  
+必ず各支払い毎にテスト注文を行い、届くメールの内容を確認すること。  
 https://help.shopify.com/ja/manual/checkout-settings/test-orders  
 https://help.shopify.com/ja/manual/payments/shopify-payments/testing-shopify-payments
 
