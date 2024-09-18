@@ -14,7 +14,14 @@
 
 - 数多くのテーマがあるが、基本的にテーマに沿った構築と運用を行う。  
 - テーマの仕様に沿わないカスタマイズを行うと、保守運用に支障が出る可能性がある。  
-- ※テーマに対して直接コードのカスタマイズを行った場合、テーマのバージョンアップをした際にコードが上書きされる。<br>そのため、テーマのバージョンアップが困難になる。
+- ※テーマに対して直接コードの記述（以下のコードを編集）を行なった場合、テーマのバージョンアップをした際にコードが上書きされる。そのため、テーマのバージョンアップが困難となる。
+
+<img width="1207" alt="スクリーンショット 2024-09-18 13 32 13" src="https://github.com/user-attachments/assets/542d345e-58d6-4353-afea-0b95d383f885">
+
+- 以下のように「テーマ内のカスタムCSS」に記載したコードは消えないため、CSSはこちらに記載する。
+
+<img width="1357" alt="スクリーンショット 2024-09-18 13 31 29" src="https://github.com/user-attachments/assets/4c9a72e2-57d5-4c70-818b-58075dc66b58">
+
 
 ### 無料テーマ
 
@@ -27,3 +34,6 @@ Dawnを推奨する。
 https://dtnavi.tcdigital.jp/shopify/shopify-theme-paid/  
 https://ec.huckleberry-inc.com/archives/1482  
 https://ja.komoju.com/blog/shopify/shopify-themes/
+
+
+
