@@ -98,9 +98,10 @@ https://help.shopify.com/ja/manual/payments/shopify-payments/testing-shopify-pay
 
 ## 5.技術参考サイト
 
-- [Shopify公式dev(Tags)](https://shopify.dev/docs/api/liquid/tags#liquid)
-- [Shopify公式dev(Object)](https://shopify.dev/docs/api/liquid/objects)
-- [Liquidチートシート](https://www.shopify.com/partners/shopify-cheat-sheet)  
+- [Shopify公式 dev(Tags)](https://shopify.dev/docs/api/liquid/tags#liquid)
+- [Shopify公式 dev(Object)](https://shopify.dev/docs/api/liquid/objects)
+- [Shopify公式 技術的なQ&A](https://community.shopify.com/c/%E6%8A%80%E8%A1%93%E7%9A%84%E3%81%AAq-a/bd-p/tqa-jp)
+- [Liquidチートシート](https://www.shopify.com/partners/shopify-cheat-sheet)
 - [しょぴくら](https://crafti-fy.jp/blogs/shopify)  
 - [ハックルベリー(Shopifyアプリ開発大手)](https://ec.huckleberry-inc.com/)  
 - [ハックルベリー(Shopify最速アップデート情報)](https://www.youtube.com/@Huckleberry-shopify/videos)
