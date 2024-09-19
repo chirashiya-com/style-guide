@@ -63,7 +63,7 @@ https://ja.komoju.com/blog/shopify/shopify-themes/
 リスク「高」は自動キャンセルしてOKか、アプリ導入時に顧客に確認すること。  
 
 ・[配送＆注文サポーター](https://apps.shopify.com/custom-field-app?locale=ja)  
-配送日時指定ができる。注文メールのコードは、丸章のGoogle Drive「Shopify」フォルダに入れてある。
+配送日時指定ができる。  注文メールのコードは、Google Driveで「注文メールコード」と検索すると、該当ファイルがある。
 
 ・[Instafeed](https://apps.shopify.com/instafeed?locale=ja)  
 テーマにインスタを反映させる
@@ -71,6 +71,7 @@ https://ja.komoju.com/blog/shopify/shopify-themes/
 ・[Order Printer](https://apps.shopify.com/shopify-order-printer?locale=ja)  
 領収証の発行機能を設定できる。  
 アプリ内にLiquidコードを入れる必要があるため、過去に構築したストア（VANGA）から引用することを推奨。
+（Google Drive内の検索で、「Shopify Order Printerコード」と検索すると、該当ファイルがある）
 
 ・[Shopifyメール](https://apps.shopify.com/shopify-email)  
 会員登録 or メール配信を許可した顧客に対し、メール配信ができるよう設定できる。  
