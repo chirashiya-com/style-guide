@@ -37,11 +37,19 @@ Dawnを推奨する。
 
 ### 有料テーマ
 
-ケースに合ったテーマを選定する。
+ケースに合ったテーマを選定する。  
+過去に使用したテーマは管理画面から確認する。
 
 https://dtnavi.tcdigital.jp/shopify/shopify-theme-paid/  
 https://ec.huckleberry-inc.com/archives/1482  
 https://ja.komoju.com/blog/shopify/shopify-themes/
+
+![スクリーンショット 2024-09-19 10 09 31](https://github.com/user-attachments/assets/587e43f4-ad38-419a-bd2d-12696ed0fcd5)
+
+「Reviews」の欄からテーマのレビューが見れるため、参考になる。
+
+#### ストアのテーマ調査について
+- Googleの拡張機能 [Koara](https://chromewebstore.google.com/detail/koala-inspector-shopify-s/hjbfbllnfhppnhjdhhbmjabikmkfekgf?hl=ja) でストアで使用されているテーマやアプリが確認できるため、他のストアの調査に利用できる（見れないストアもある）
 
 ## 3.アプリについて
 
