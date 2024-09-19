@@ -109,7 +109,7 @@ HTML/CSSのコーディングは自由度が高いため、コーダーが独自
 </header>
 <main>
   <section>
-    <h1>TOPページ見出し</h1>
+    <div>TOPページ見出し</div>
   </section>
 </main>
 ```
