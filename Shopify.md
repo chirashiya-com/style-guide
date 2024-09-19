@@ -48,7 +48,7 @@ https://ja.komoju.com/blog/shopify/shopify-themes/
 
 「Reviews」の欄からテーマのレビューが見れるため、参考になる。
 
-#### ストアのテーマ調査について
+#### ストアのテーマ調査
 - Googleの拡張機能 [Koara](https://chromewebstore.google.com/detail/koala-inspector-shopify-s/hjbfbllnfhppnhjdhhbmjabikmkfekgf?hl=ja) でストアで使用されているテーマやアプリが確認できるため、他のストアの調査に利用できる（見れないストアもある）
 
 ## 3.アプリについて
